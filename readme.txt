@@ -1,5 +1,5 @@
 === SourceForge Project Web Email Configuration ===
-Contributors: opoo
+Contributors: opoo.org
 Tags: sourceforge, email, smtp, 邮件配置
 Requires at least: 3.0
 Tested up to: 3.3.2
@@ -8,11 +8,11 @@ License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Donate link: http://opoo.org/
 
-This plugin help you configure the email(smtp) functions for your WordPress that hosted on SourceForge.net Project Web.
+This plugin help you configure the email(smtp) functions for your WordPress hosted on SourceForge.net Project Web.
 
 == Description ==
 
-This plugin help you configure the email(smtp) functions for your WordPress that hosted on SourceForge.net Project Web. 
+This plugin help you configure the email(smtp) functions for your WordPress hosted on SourceForge.net Project Web. 
 在SourceForge的Project Web或User Web中安装WordPress时，无法通过WordPress默认的方法发送邮件，但可以通过SourceForge提供的方法发送邮件。插件将SourceForge提供的Email配置HOOK到WordPress的wp_mail()函数里，使得邮件功能在SourceForge空间下也可以正常工作。
 
 = Please note! =
