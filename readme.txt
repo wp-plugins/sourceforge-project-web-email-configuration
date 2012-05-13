@@ -1,6 +1,6 @@
 === SourceForge Project Web Email Configuration ===
 Contributors: opoo
-Tags: sourceforge, email, smtp, ÓÊ¼şÅäÖÃ
+Tags: sourceforge, email, smtp, é‚®ä»¶é…ç½®
 Requires at least: 3.0
 Tested up to: 3.3.2
 Stable tag: trunk
@@ -13,11 +13,11 @@ This plugin help you configure the email(smtp) functions for your WordPress that
 == Description ==
 
 This plugin help you configure the email(smtp) functions for your WordPress that hosted on SourceForge.net Project Web. 
-ÔÚSourceForgeµÄProject Web»òUser WebÖĞ°²×°WordPressÊ±£¬ÎŞ·¨Í¨¹ıWordPressÄ¬ÈÏµÄ·½·¨·¢ËÍÓÊ¼ş£¬µ«¿ÉÒÔÍ¨¹ıSourceForgeÌá¹©µÄ·½·¨·¢ËÍÓÊ¼ş¡£²å¼ş½«SourceForgeÌá¹©µÄEmailÅäÖÃHOOKµ½WordPressµÄwp_mail()º¯ÊıÀï£¬Ê¹µÃÓÊ¼ş¹¦ÄÜÔÚSourceForge¿Õ¼äÏÂÒ²¿ÉÒÔÕı³£¹¤×÷¡£
+åœ¨SourceForgeçš„Project Webæˆ–User Webä¸­å®‰è£…WordPressæ—¶ï¼Œæ— æ³•é€šè¿‡WordPressé»˜è®¤çš„æ–¹æ³•å‘é€é‚®ä»¶ï¼Œä½†å¯ä»¥é€šè¿‡SourceForgeæä¾›çš„æ–¹æ³•å‘é€é‚®ä»¶ã€‚æ’ä»¶å°†SourceForgeæä¾›çš„Emailé…ç½®HOOKåˆ°WordPressçš„wp_mail()å‡½æ•°é‡Œï¼Œä½¿å¾—é‚®ä»¶åŠŸèƒ½åœ¨SourceForgeç©ºé—´ä¸‹ä¹Ÿå¯ä»¥æ­£å¸¸å·¥ä½œã€‚
 
 = Please note! =
 
-ÔÚÆôÓÃ²å¼şºó£¬ĞèÒªÔÚ¡°ÉèÖÃ¡±²Ëµ¥ÀïÅäÖÃSourceForge·¢ËÍÓÊ¼şµÄ²ÎÊı¡£
+åœ¨å¯ç”¨æ’ä»¶åï¼Œéœ€è¦åœ¨â€œè®¾ç½®â€èœå•é‡Œé…ç½®SourceForgeå‘é€é‚®ä»¶çš„å‚æ•°ã€‚
 
 == Installation ==
 
@@ -27,8 +27,8 @@ This plugin help you configure the email(smtp) functions for your WordPress that
 
 == Changelog ==
 
-= 1.0.0 =
-* ÕıÊ½°æ±¾1£¬´øÓĞÑ¡ÏîÅäÖÃ½çÃæ¡£
+= 1.0 =
+* æ­£å¼ç‰ˆæœ¬1ï¼Œå¸¦æœ‰é€‰é¡¹é…ç½®ç•Œé¢ã€‚
 
 == Screenshots ==
 1. The plugin option page: `/trunk/screenshot-1.png`
@@ -41,6 +41,6 @@ No content yet.
 
 == Related Links==
 
-* <a href="http://opoo.org/sourceforge-wordpress-email-configuration/" title="SourceForge Project Web Email Configuration for WordPress">Plugin Homepage£¨²å¼şÖ÷Ò³£©</a>
+* <a href="http://opoo.org/sourceforge-wordpress-email-configuration/" title="SourceForge Project Web Email Configuration for WordPress">Plugin Homepageï¼ˆæ’ä»¶ä¸»é¡µï¼‰</a>
 * <a href="http://sourceforge.net/apps/trac/sourceforge/wiki/Project%20web" title="SourceForge Project Web">SourceForge Project Web</a>
 * <a href="http://sourceforge.net/apps/trac/sourceforge/wiki/Project%20Web%20Email%20Configuration" title="SourceForge Project Web Email Configuration">SourceForge Project Web Email Configuration</a>
