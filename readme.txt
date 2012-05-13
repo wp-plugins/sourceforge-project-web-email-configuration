@@ -19,6 +19,13 @@ This plugin help you configure the email(smtp) functions for your WordPress host
 
 在启用插件后，需要在“设置”菜单里配置SourceForge发送邮件的参数。
 
+= Related Links =
+
+* <a href="http://opoo.org/sourceforge-wordpress-email-configuration/" title="SourceForge Project Web Email Configuration for WordPress">Plugin Homepage（插件主页）</a>
+* <a href="http://sourceforge.net/apps/trac/sourceforge/wiki/Project%20web" title="SourceForge Project Web">SourceForge Project Web</a>
+* <a href="http://sourceforge.net/apps/trac/sourceforge/wiki/Project%20Web%20Email%20Configuration" title="SourceForge Project Web Email Configuration">SourceForge Project Web Email Configuration</a>
+
+
 == Installation ==
 
 1. Unzip the ZIP file and drop the folder straight into your `wp-content/plugins/` directory.
@@ -39,8 +46,3 @@ No content yet.
 == Upgrade Notice ==
 No content yet.
 
-== Related Links==
-
-* <a href="http://opoo.org/sourceforge-wordpress-email-configuration/" title="SourceForge Project Web Email Configuration for WordPress">Plugin Homepage（插件主页）</a>
-* <a href="http://sourceforge.net/apps/trac/sourceforge/wiki/Project%20web" title="SourceForge Project Web">SourceForge Project Web</a>
-* <a href="http://sourceforge.net/apps/trac/sourceforge/wiki/Project%20Web%20Email%20Configuration" title="SourceForge Project Web Email Configuration">SourceForge Project Web Email Configuration</a>
