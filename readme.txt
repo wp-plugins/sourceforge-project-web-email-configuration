@@ -16,8 +16,8 @@ This plugin help you configure the email(smtp) functions for your WordPress host
 在SourceForge的Project Web或User Web中安装WordPress时，无法通过WordPress默认的方法发送邮件，但可以通过SourceForge提供的方法发送邮件。插件将SourceForge提供的Email配置HOOK到WordPress的wp_mail()函数里，使得邮件功能在SourceForge空间下也可以正常工作。
 
 = !PLEASE NOTE!  注意！ =
-* This plugin is ONLY for the WordPress installed in (hosted on) SourceForge.net Project Web space.
-* 这个插件仅用于安装在SourceForge.net的Project Web空间中的WordPress。
+* This plugin is **ONLY** for the WordPress installed in (hosted on) SourceForge.net Project Web space.
+* 这个插件**仅用于**安装在SourceForge.net的Project Web空间中的WordPress。
 
 = Related Links =
 
