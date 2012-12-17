@@ -35,6 +35,9 @@ This plugin help you configure the email(smtp) functions for your WordPress host
 
 == Changelog ==
 
+= 1.0.1 =
+* 修正了使用SSL协议无法发送邮件的问题。
+
 = 1.0 =
 * 正式版本1，带有选项配置界面。
 
