@@ -1,7 +1,7 @@
 <?php
 /**
  * @package sourceforge-email-configure
- * @version 1.0
+ * @version 1.0.1
  */
 /*
 Plugin Name: SourceForge Project Web Email Configuration

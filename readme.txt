@@ -2,7 +2,7 @@
 Contributors: opoo.org
 Tags: sourceforge, email, smtp, 邮件配置
 Requires at least: 3.0
-Tested up to: 3.3.2
+Tested up to: 3.5
 Stable tag: trunk
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
