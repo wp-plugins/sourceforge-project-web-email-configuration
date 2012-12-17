@@ -8,7 +8,7 @@ Plugin Name: SourceForge Project Web Email Configuration
 Plugin URI: http://opoo.org/sourceforge-wordpress-email-configuration/
 Description: This plugin help you configure the email(smtp) functions for your WordPress hosted on SourceForge.net Project Web. 在SourceForge的<a href="http://sourceforge.net/apps/trac/sourceforge/wiki/Project%20web">Project Web</a>或User Web中安装WordPress时，无法通过WordPress默认的方法发送邮件，但可以通过SourceForge提供的方法发送邮件（<a href="http://sourceforge.net/apps/trac/sourceforge/wiki/Project%20Web%20Email%20Configuration">Project Web Email Configuration</a>）。插件将SourceForge提供的Email配置HOOK到WordPress的wp_mail()函数里，使得邮件功能在SourceForge空间下也可以正常工作。在启用插件后，可到选项配置界面进行参数设置。
 Author: Alex Lin
-Version: 1.0
+Version: 1.0.1
 Author URI: http://opoo.org/about/
 */
 //如果觉得插件名称太长，可以修改Plugin Name为: SourceForge邮件配置
@@ -191,17 +191,18 @@ function phpmailer_init_sourceforge($phpmailer) {
 		//error_log('SourceForge Email Configure options missing, please check!');	
 		return;
 	}
-	
+
 	if($sf_smtp_secure === 'ssl'){
-		$phpmailer->Host = 'ssl://prwebmail';
+		//$phpmailer->Host = 'ssl://prwebmail';
 		$phpmailer->Port = 465;
 		$phpmailer->SMTPSecure = 'ssl';
 	}else{
-		$phpmailer->Host = 'prwebmail';	
+		//$phpmailer->Host = 'prwebmail';	
 		$phpmailer->Port = 25;
 		$phpmailer->SMTPSecure = 'tls';
 	}
 
+	$phpmailer->Host = 'prwebmail';	
 	$phpmailer->Username = $sf_project_name;
 	$phpmailer->Password = $sf_project_web_password;
 	$phpmailer->From = $sf_from;
